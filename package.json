@@ -1,0 +1,26 @@
+{
+  "name": "shopapp",
+  "version": "1.0.0",
+  "description": "e-commerce application ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "expressjs",
+    "mongoose",
+    "body-paser",
+    "angular"
+  ],
+  "author": "amin uddin",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.9"
+  }
+}
