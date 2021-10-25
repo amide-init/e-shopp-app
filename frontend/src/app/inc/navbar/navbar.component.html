@@ -1,0 +1,11 @@
+<nav class="navbar navbar-dark bg-danger">
+    <a class="navbar-brand" routerLink="/">My Shop App</a>
+    <div class="form-inline" *ngIf="!user">
+        <button class="btn btn-dark mr-sm-2" routerLink="/login">Login</button>
+        <button class="btn btn-warning my-2 my-sm-0" routerLink="/signup">Signup</button>
+    </div>
+    <div class="form-inline" *ngIf="user">
+        <div class=" mr-sm-2 text-white" >hello, {{user.displayName}}</div>
+        <button class="btn btn-warning my-2 my-sm-0" (click)="logout()">Logout</button>
+    </div>
+</nav>
